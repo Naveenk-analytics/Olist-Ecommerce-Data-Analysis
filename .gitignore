@@ -1,0 +1,26 @@
+# Raw Olist datasets
+olist_*.csv
+olist_*.csv/
+olist_*.csv.zip
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Large generated outputs
+outputs/orders_analyzed.csv
+outputs/delivery_performance.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.log
